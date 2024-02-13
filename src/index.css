@@ -1,13 +1,35 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-image {
+  background-image: url(./assets/Webp/bg-img.webp);
+  background-position: center;
+  background-size: cover;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.baground-white {
+  background-image: url(./assets/Webp/bg-white.webp);
+  background-position: start;
+  background-size: 100% 100%;
+}
+
+.baground-white-2 {
+  background-image: url(./assets/Webp/bg-white-2.webp);
+  background-position: start;
+  background-size: 100% 100%;
+}
+
+.baground-green {
+  background-image: url(./assets/Webp/bg-green.webp);
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.card-image {
+  background-image: url(./assets/Webp/bg-image.wbp.webp);
+  background-position: center;
+  background-size: cover;
 }
